@@ -17,6 +17,9 @@ public class Casting {
         int myInt = Integer.parseInt(myString1);
         System.out.println(myInt);
 
+        Integer myInteger = Integer.valueOf(myString1);
+        System.out.println(myInteger);
+
         long myLong = Long.parseLong(myString1);
         System.out.println(myLong);
 
@@ -26,7 +29,12 @@ public class Casting {
         double myDouble = Double.parseDouble(myString1);
         System.out.println(myDouble);
 
+        //String myString2 = "10";
         String myString2 = "OOP";
         System.out.println(getInt(myString2));
+
+        //String myIntegerString = myInteger;
+        String myIntegerString2 = myInteger.toString();
+        System.out.println(myIntegerString2);
     }
 }
