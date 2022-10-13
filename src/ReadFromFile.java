@@ -5,7 +5,6 @@ import java.io.FileReader;
 public class ReadFromFile {
     public static void main(String[] args) {
         try {
-
             File myFile = new File("file.txt");
             FileReader fileReader = new FileReader(myFile);
             BufferedReader reader = new BufferedReader(fileReader);
